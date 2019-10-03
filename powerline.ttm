@@ -1,0 +1,35 @@
+[theme]
+status-fg = white
+status-bg = colour7
+
+status-left = '#[bg=colour240,fg=white] #S #[fg=colour236,reverse]'
+status-left-length = 40
+
+status-right = '#[fg=colour244]#S:#I:#P #[fg=colour240]#[fg=colour231,bg=colour240] #H #[fg=colour252]#[fg=black,bg=colour252,nobold] %b %d %a #[bold]%H:%M '
+status-right-length = 80
+
+window-status-current-format = '#[fg=colour236]#[default,bold] #I #[fg=colour231,reverse]#[default]#[bg=colour123] #W #[fg=colour236,reverse]'
+window-status-current-attr = none
+window-status-current-bg = colour33
+window-status-current-fg = black
+
+window-status-format = '#[fg=colour236,nounderscore]#[default,bold,nounderscore] #I #[fg=colour240,reverse]#[default]#[bg=colour240]#[nounderscore] #[default]#[fg=colour231,bg=colour240]#W#[nounderscore] #[fg=colour236,reverse]'
+window-status-attr = none
+window-status-bg = colour76
+window-status-fg = black
+
+window-status-last-attr = none
+window-status-last-bg = cyan
+window-status-last-fg = black
+
+window-status-activity-attr = bold
+window-status-activity-bg = colour127
+window-status-activity-fg = black
+
+window-status-bell-attr = bold
+window-status-bell-bg = red
+window-status-bell-fg = black
+
+pane-border-fg = colour7
+pane-active-border-fg = colour7
+pane-active-border-bg = default
