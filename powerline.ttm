@@ -8,7 +8,7 @@ status-left-length = 40
 status-right = '#[fg=colour244]#S:#I:#P #[fg=colour240]#[fg=colour231,bg=colour240] #H #[fg=colour252]#[fg=black,bg=colour252,nobold] %b %d %a #[bold]%H:%M '
 status-right-length = 80
 
-window-status-current-format = '#[fg=colour236]#[default,bold] #I #[fg=colour231,reverse]#[default]#[bg=colour123] #W #[fg=colour236,reverse]'
+window-status-current-format = '#[fg=colour0] #I #[fg=colour231,reverse]#[default]#[bg=colour4] #W #[fg=colour236,reverse]'
 window-status-current-attr = none
 window-status-current-bg = colour33
 window-status-current-fg = black
